@@ -1,0 +1,84 @@
+body {
+  font: 15px arial, sans-serif;
+  background-color: #f5f9ff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#bodybox {
+  margin: auto;
+  max-width: 550px;
+  font: 15px arial, sans-serif;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  padding-right: 25px;
+  padding-left: 25px;
+  box-shadow: 5px 5px 5px #9ea6af70;
+  border-radius: 15px;
+}
+
+#chatborder {
+  border-width: 3px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  padding-left: 15px;
+  border-radius: 15px;
+}
+
+.chatlog {
+   font: 15px arial, sans-serif;
+}
+
+#chatbox {
+  font: 17px arial, sans-serif;
+  height: 22px;
+  width: 100%;
+}
+
+h1 {
+  margin: auto;
+}
+
+pre {
+  background-color: #f0f0f0;
+  margin-left: 20px;
+}
+
+input[type="text" i] {
+    padding: 1px 2px;
+}
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: textfield;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 2px;
+    border-width: 1px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+input:focus {
+    outline-offset: 0px;
+}
+:focus {
+    outline: -webkit-focus-ring-color auto 1px;
+}
